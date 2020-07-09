@@ -1,7 +1,5 @@
 FROM pihole/pihole:latest
 
-WORKDIR /var/www/html
-
 # https://github.com/thomasbnt/Night_PiHole
 WORKDIR /var/www/html/admin/style/vendor
 RUN git clone https://github.com/thomasbnt/Night_Pihole.git
